@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Что вы хотите что положить в Message ?");
+        System.out.println("Что вы хотите положить в Message ?");
         String answer = scanner.nextLine();
 
         if (answer.equals("строку")) {
