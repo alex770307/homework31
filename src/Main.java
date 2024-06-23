@@ -11,7 +11,6 @@ public class Main {
             String message = scanner.nextLine();
             Message<String> stringMessage = new Message<>(message);
             System.out.println("Содержимое сообщения :\n" + stringMessage.getContent());
-
         } else if (answer.equals("число")) {
             System.out.println("Введите число:");
             int number = Integer.parseInt(scanner.nextLine());
